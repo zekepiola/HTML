@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content= Aquí se pone la descripción que aparece 
+                                       debajo del titulo de la pagina en la busqueda
+    <meta name="keywords" content= Aquí se insertan palabras clave que facilitaran la búsqueda.
+                                    Eran mas útiles antes, aunque no estan de más.>
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <a href="#seccionparrafo1">Párrafo 1</a>
+    <br>
+    <a href="#Crear un link">Crear un link </a>
+    <br>
+    <a href="#Input y Formulario">Input y Formulario</a>
+    <br>
+    <a href="#Vincular una imagen">Vincular una imagen</a>
+
+    
+    <h1> <p>El primer encabezado debe ser el que contenga el fundamento principal de la pagina.<br>
+        Y es util como keyword en el buscador. Si hablamos de una peluquería vamos a querer poner algo como<br>
+        Peluquería [inserte aqui nombre] Cortes y peinados. Tinturas, etc. Dirección física,<br>
+        núm de contacto, etc. Es el tag de mayor jerarquía en el body. Y debería ser el único h1></p><br>
+        
+
+    <h2><p>Este puede ser repetido ya que no esta al alcance de keywords del buscador.<br>
+                Y es el relleno o complementación del h1.</p><br>
+            </h2><div><p> Hay maneras de escribir <u>símbolos o en este caso llamados, 'entities'</u>. <b>
+                < > / () {}<br>
+                entre otros, estos normalmente se unen a una palabra transformandolo en atributo o tag,<br>
+                pero hay comandos para escribirlos sin que ocurra esto.<br></b></p></div>
+
+
+            Ejemplos:<br>
+            
+            <p>Para escribir los simbolos mayor y menor se hace uso de el conjunto &-lt;(lower than) y
+            &-gt;(greater than).<br> Esto se hace cuando la palabra encerrada entre estos simbolos es un tag
+            o atributo que por ende cambia su utilidad. Como es 'HTML' (<html></html>) entre otros.
+            Ejemplo: &lt; &gt;<br>
+            El símbolo de copyright se hace= &-copy-; (&copy;)<br>
+            &-commat-; sería &commat;<br>
+            &-Hat-; sería &Hat;<br> 
+            Existen paginas donde se encuentran todos los códigos.</p><br>
+
+            <p><div>
+            Tambien hay un comando que es: &-nbsp-; significa non-breaking space, esto hace que la palabra<br>
+            al final de un renglón en nuestra pagina pueda llegar a estar al comienzo del renglón siguiente<br>
+            sin tener que sacar espacios o caracteres. &nbsp;</div></p>
+            <br> 
+
+            El codigo <b>br</b> es usado para generar lineas de renglón, lo puedo usar para <b>dar espacio entre<br>
+            textos</b>.
+            Sigue funcionando si lo amontono en un mismo renglon en el codigo fuente.
+            <br><br>
+
+
+            <div><p id="Crear un link"><b>Para crear un link se usa </b><br>
+
+            &lt;a href= direccion del vínculo web &gt; *palabra/s que contengan al link* &lt;/a&gt;
+            Ej: <a href="https://facebook.com/"> click acá para ir a Facebook pa</a></div></p>
+            En caso de ir a una pagina externa, usaremos los protocolos http o https según se haya<br> 
+            creado la página.<br>
+            <div><p>Para crear un link que al hacerle click nos envíe a una pagina en una <b><i>pestaña</i> aparte</b><br>
+            hay que agregarle al href un 'target=_blank'. Ejemplo:</div><br>
+        <div> &lt;a href="https://google.com/" <b>target="_blank"</b>&gt; &lt; Abrir google en otra pestaña pa.&lt; /a &gt;</p></div><br>
+            <a href="https://google.com/" target="_blank">Abrir google en otra pestaña pa.</a></p></div><br>
+
+
+            <div><p id="Vincular una imagen"><br><b>Para vincular una imagen se usa</b><br>
+            img src="dirección del sitio/carpeta que contiene la imagen" alt="Texto que aparecera en caso de que la imagen no se pueda cargar"></p>
+
+            <p>Ejemplo:&lt;img src=Tuvieja.jpg alt= Foto de tuvieja&gt; </div></p> <br>
+            
+            
+
+            <p><b>Para vincular un video se usa</b><br>
+            &lt;video&gt;y &lt;/video&gt; Dentro de estos tags se encuentra un <br>
+            src="dirección del sitio/carpeta que contiene el video" y al lado de esto<br>
+            añadimos el atributo 'controls' que permite decirle al buscador que controles de video usar<br>
+            Los controles de video son esos que nos ayudan para interactuar con el archivo sea para pausarlo,<br>
+            rebobinarlo, subir o bajar el volumen y poner el contenido en pantalla completa entre otros.</p>
+            
+            <p><b>Para vincular un audio:</b><br>
+                En vez de video el comando es &lt;audio&gt;&lt;/audio&gt;. Se usa el 'src' y siempre que el <br>
+                vinculo sea un audio o video con contenido de audio, este se reproducirá. Es mas que claro que sin <br>
+                el atributo 'controls' el audio no funcionara. <br>
+            </p>
+
+            <div><p> <b>Usando el &lt;a href=mailto</b>:[inserte correo electronico]&gt;' haremos que se abra<br>
+                nuestro navegador (en mi caso Chrome) y de estar iniciada la sesión abrira el correo<br>
+                electrónico y rellenara un nuevo mensaje con el remitente configurado al correo citado<br>
+                seguido del mailto:<br>
+
+                Ejemplo:<br>
+            &lt;a href="mailto:JuanCarlosOrtizPerez@gmail.com"&gt; Email&lt;/a&gt; </p></div>
+            <a href="mailto:JuanCarlosOrtizPerez@gmail.com">Email</a> </p></div>
+            
+            <div> <p>Al usar 'download' al lado de un href o img entre otros, se da la opcion de descargar<br>
+                lo vinculado. EJ:(este aún no me sale) <br>
+            <a href=https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=0.672xw:1.00xh;0.166xw,0&amp;resize=640:*" target=_blank> Dog image</a>
+            <br>
+<p>Para hacer una <b>lista enumerada</b> se usa <b>&lt;ol&gt;</b>; y para hacer una <b>lista sin orden</b> es <b>&lt;ul&gt;</b><br>
+    para hacer cada item o número de la lista se usa &lt;li&gt;.<br>
+Ejemplo: <ol> 
+    <li>Hola</li>
+    <li>Como</li>
+    <li>Estas</li>
+</ol></p> <br>
+
+<p id="Input y Formulario">Para <b>insertar una entrada de información (input)</b> se usa el tag &lt;input type="text"&gt; <br>
+Por defecto cuando usamos el tag, ya viene configurada la entrada para insertar únicamente texto <br>
+Existen muchos tipos de input, estos son los mas usados; <ul> <form method="post">
+    <li> <input type="text" ></li> *&lt;input type="text"&gt;* Tipea solo texto
+    <li> <input type="number"></li> *&lt;input type="number"&gt;* Solo números
+    <li> <input type="email"></li> *&lt;input type="email"&gt;* Solo conjunto de caracteres<br>
+    de combinacion ***@***.***
+    <li> <input type="password"></li> *&lt;input type=password&gt;* Solo para poner contraseñas
+    <li> <input type="submit"></li> *&lt;input type=submit&gt;* Botón utilizado para enviar los datos al servidor
+    que fueron registrados en las entradas previas. </form> <br></ul>
+
+<b>Ahora bien, para que los tags de entrada anteriores respondan deben estar encerrados entre un tag llamado form
+    que quiere decir 'formulario', y se escribe de la siguiente manera;</b><br>
+&lt;form action="" method="post"&gt; &lt;/form&gt;<br>
+
+Funciona incluso escribiendoló así;<br>
+
+&lt;form method="post"&gt; &lt;/form&gt; Esta sería la manera mas simple de escribirlo, existen otros 'method'
+y por lo visto 'action='' también desempeña un papel el cual aún desconozco. </p>
+        
+<h2> <div> <p> Hacer un atajo en una misma pagina se requiere del comando href, pero antes alarguemos la<br>
+    pagina en secciones para poder hacer los atajos.</div></p>
+<p> Una vez extendido el alto de la pagina, separaremos por secciones las cuales serán los párrafos.<br>
+    <p>1- Se coloca 'id=' y el nombre que le asignamos al vinculo que hara el salto dentro de la página.</p><br>
+    <p>2- Se coloca un a href= que comienza con # y el nombre elegido del vinculo.</p><br>
+    <p>3- Si quisiera volver al principio de la pagina, inserto el siguiente texto a la altura que quisiera<br>
+       el 'botón' del comienzo: a href=#. Con solo poner numeral la accion sera saltar al comienzo. Después <br>
+       completamos con el nombre que queremos indicar a dicho botón.</p><br>
+
+    <p id="seccionparrafo1"><i> Párrafo 1<i></p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Impedit magnam repellendus enim illo sit doloremque cum reiciendis 
+            facilis, nihil aliquam deleniti iusto vero, voluptates amet, eos officiis molestiae 
+            temporibus maiores neque tempore quia obcaecati culpa voluptatem at. Excepturi at soluta 
+            omnis rerum modi voluptatum labore iusto, eum ipsam exercitationem facilis iure tenetur vitae 
+            amet quam consequatur dignissimos vero? Dignissimos aperiam molestias mollitia eos nostrum, 
+            corporis, maxime ipsam dicta laudantium fuga obcaecati illo, quia eius quas. </p>
+        <p>Odit, atque dignissimos voluptatem inventore consectetur fugiat exercitationem facilis animi rerum ut 
+            est. Eaque quis ex, a provident saepe, ipsa fugit commodi nihil repellat accusamus exercitationem 
+            amet doloremque molestiae deleniti magnam dicta tempore blanditiis vitae eligendi. 
+            Eaque soluta ipsum dolores nostrum illo doloremque accusamus, dolorem, vero autem eos 
+            voluptatem alias omnis dolorum, laborum impedit ab veniam ratione sit at unde.</p> 
+        <p>Ullam iusto unde recusandae fugit quis, sunt, laboriosam a nihil adipisci aliquam aut laudantium minus 
+            explicabo, consectetur aperiam? Iure, eum expedita! Eveniet, nesciunt. Veritatis delectus a
+             fugit velit. Eligendi sunt atque voluptatem odio temporibus dolores? Dignissimos libero cumque, 
+             em dolore non fuga quia placeat facilis ipsam officia est beatae quis necessitatibus
+             dicta corrupti! Quis consequuntur, atque impedit sunt esse error sit facere. Esse, consectetur 
+             distinctio?</p>
+
+    <a href="#">Volver al comienzo de la página</a>   
+</body>
+</html>
