@@ -59,7 +59,11 @@ notificaciones, messenger, menu, marketplace, amigos y demás.
       ''...'' <br>
     &lt;/h2&gt; <br>
   &lt;/aside&gt; <br>
-  &lt;footer&gt; Este sería el pié de página y va siempre debajo del todo de esta. Sirve para poner la información de contacto, para insertar feedback, para
+..&lt;footer&gt; Este sería el pié de página y va siempre debajo del todo de esta. Sirve para poner la información de contacto, para insertar feedback, para
   poner el copyright, para otros enlaces fuera de la pagina, entre otros. <br>
+  
+   &lt;h4&gt; Todos los derechos reservados Tumamá S.Aª. 455-7269 <br>
+              Juancruz@sefuéalaguerra.quedolor.quepena &lt;/h4&gt;
+  
   &lt;/footer&gt; <br>
   
