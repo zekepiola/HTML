@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    Que es un meta? Meta viene de metadato. Que es un metadato¿? Es un dato que describe a otro dato.
+    Cuando se inserta un tag de meta cosas como explicarle al navegador como reconocer ciertos carácteres
+    (es decir, le describimos datos al navegador) para que este despues los ilustre en la página de manera
+    correcta. Suelen estar compuestos por un <meta | name="tipo de metadato" y content="contenido debido según
+    función del metadato">.
+    Es mas fácil entenderlo en la practica que en la teoría.
+    <meta charset="UTF-8"> Charset por ejemplo viene de Character set, del inglés ajustar carácter.
+    Y que tipos de caracter queremos describirle exactamente? los de UTF-8. De esta manera el navegador
+    reconocerá acentos, simbolos y otros caracteres que antes no. Resultando en letras raras que dan mal 
+    aspecto y nula utilidad.
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content= Aquí se pone la descripción que aparece 
-                                       debajo del titulo de la pagina en la busqueda
+                                       debajo del titulo de la pagina en la busqueda> 
+
     <meta name="keywords" content= Aquí se insertan palabras clave que facilitaran la búsqueda.
-                                    Eran mas útiles antes, aunque no estan de más.>
+                                    Eran mas útiles antes, aunque no estan de más. Ahora google no las
+                                    usa porque cualquiera puede usar este meta tag de manera incorrecta.
+                                    Si mi pagina no tiene visitas sea por que tenga keywords mal puestos, o
+                                    el tema de la pagina simplemente no sea tan buscado, pudiera ponerle
+                                    etiquetas / key words que no esta relacionado al tema pero que si son visibles.
+                                    De esta forma la gente encontraría cosas que no está buscando y se enojarían 
+                                    con la empresa a cargo (google).>
+    <meta name="author" content="nombre del autor de la página".>
+    <meta name="copyright" content="informa si la empresa de la página tiene copyright o no. En esta parte
+    iría el nombre de la empresa con el que registró su copyright."> 
+    <meta name="robots" content="noindex/index"> Sirve para indexar o no la página, es decir filtrar
+    la busqueda mediante los datos anteriormente insertos en el meta keyword y meta description. 
+    Si elegimos noindex, entonces por mas que nuestro taller mecanico tenga keywords 'autos reparación balanceo
+    ejes' y se busque con dichas palabras, el buscador no las tendrá en cuenta. Esta opción es para hacer lo 
+    contrario a facilitar la busqueda de la pagina a los usuarios. Una función para paginas 'secretas'. 
+    <meta name="robots" content="follow"> meta tag dedicado para trabajar con back end. FALTA BUSCAR PARA QUE 
+    SIRVE.
     <title>Document</title>
 </head>
 <body>
@@ -121,6 +147,11 @@ Existen muchos tipos de input, estos son los mas usados; <ul> <form method="post
     <li> <input type="password"></li> *&lt;input type=password&gt;* Solo para poner contraseñas
     <li> <input type="submit"></li> *&lt;input type=submit&gt;* Botón utilizado para enviar los datos al servidor
     que fueron registrados en las entradas previas. </form> <br></ul>
+
+    Nota: Lo que se haya escrito dentro de los tags input es reconocido como un valor o 'value' en inglés.
+    Esto se puede poner en Html pero es algo que normalmente usamos en JavaScript. <br>
+    Ejemplo: &lt;input type="text" value="Que onda Juan."&gt;  Entonces cuando se abra la página lo que <br>
+    figurará dentro de la casilla es el valor 'Que onda Juan'.  <input type="text" value="Que onda Juan."> <br><br>
 
 <b>Ahora bien, para que los tags de entrada anteriores respondan deben estar encerrados entre un tag llamado form
     que quiere decir 'formulario', y se escribe de la siguiente manera;</b><br>
