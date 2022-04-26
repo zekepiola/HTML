@@ -11,12 +11,12 @@ la pagina para vincular todos los enlaces necesarios. Enlaces o submenu's. En fa
 notificaciones, messenger, menu, marketplace, amigos y demás.
 
   Ejemplo:
-<body>
-  <header>
-    <nav>
-      <ul> Si, se usan listas y de las que no usan orden jerárquico.
-        <li> Esto atribuye a la cantidad de botones necesarios, cada (li) es un ítem. Y como dichos ítems son links
-          cada li estará compuesto de <a href= [inserte link aquí]> nombre de sección</a>
-      </ul>
-    </nav>
-  </header>
+&lt;body&gt;
+  &lt;header&gt;
+    &lt;nav&gt;
+      &lt;ul&gt; Si, se usan listas y de las que no usan orden jerárquico.
+        &lt;li&gt; Esto atribuye a la cantidad de botones necesarios, cada (li) es un ítem. Y como dichos ítems son links
+          cada li estará compuesto de &lt;a href= [inserte link aquí]&gt; nombre de sección&lt;/a&gt;
+      &lt;/ul&gt;
+    &lt;/nav&gt;
+  &lt;/header&gt;
