@@ -20,3 +20,10 @@ notificaciones, messenger, menu, marketplace, amigos y demás.
       &lt;/ul&gt; <br>
     &lt;/nav&gt; <br>
   &lt;/header&gt; <br>
+
+  Lo mas probable es que las direcciones que ingresemos en los items sean .html si son accesos internos de nuestra pagina. Uno será <br>
+ &lt;a href= index.html&gt; Inicio&lt;/a&gt; <br>
+ &lt;a href= nosotros&gt; Sobre nosotros&lt;/a&gt; <br>
+ &lt;a href= contacto&gt; contactános&lt;/a&gt; <br>
+ &lt;a href= soporte&gt; soporte&lt;/a&gt; <br>
+ Y así
