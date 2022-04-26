@@ -27,3 +27,6 @@ notificaciones, messenger, menu, marketplace, amigos y demás.
  &lt;a href= contacto&gt; contactános&lt;/a&gt; <br>
  &lt;a href= soporte&gt; soporte&lt;/a&gt; <br>
  Y así
+
+ Es muy importante hacer un archivo html con solo el nav de nuestra pagina y reutilizarlo para cada sección distinta con cada body distinto.
+  Ya que todas las paginas necesitan una forma de volver al inicio u otra sección.
