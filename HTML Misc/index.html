@@ -104,24 +104,31 @@
 
 
             <div><p id="Vincular una imagen"><br><b>Para vincular una imagen se usa</b><br>
-            img src="dirección del sitio/carpeta que contiene la imagen" alt="Texto que aparecera en caso de que la imagen no se pueda cargar"></p>
-
+            img src="dirección del sitio/carpeta que contiene la imagen" alt="Texto que aparecera en caso de que la imagen no se pueda cargar"></p> <br>
+            
             <p>Ejemplo:&lt;img src=Tuvieja.jpg alt= Foto de tuvieja&gt; </div></p> <br>
-            
-            
 
+            <p>
+            El Alt= tambien es muy importante para el buscador como palabra clave, y para aquellos que tienen <br>
+                un buscador para ciegos, dictará lo que está en el alt para comprender la imagen. Ahora, también se <br>
+                le puede agregar un atributo 'title' después del Alt. Este no es obligatorio, lo que hace es manifestar <br>
+                en un pequeño rectangulo de texto al lado del mouse cuando este señala la imagen. El texto del recuadro <br>
+                es lo escrito en 'title=...' . 
+            </p> <br>
+            
+            
             <p><b>Para vincular un video se usa</b><br>
             &lt;video&gt;y &lt;/video&gt; Dentro de estos tags se encuentra un <br>
             src="dirección del sitio/carpeta que contiene el video" y al lado de esto<br>
             añadimos el atributo 'controls' que permite decirle al buscador que controles de video usar<br>
             Los controles de video son esos que nos ayudan para interactuar con el archivo sea para pausarlo,<br>
-            rebobinarlo, subir o bajar el volumen y poner el contenido en pantalla completa entre otros.</p>
+            rebobinarlo, subir o bajar el volumen y poner el contenido en pantalla completa entre otros.</p> <br>
             
             <p><b>Para vincular un audio:</b><br>
                 En vez de video el comando es &lt;audio&gt;&lt;/audio&gt;. Se usa el 'src' y siempre que el <br>
                 vinculo sea un audio o video con contenido de audio, este se reproducirá. Es mas que claro que sin <br>
-                el atributo 'controls' el audio no funcionara. <br>
-            </p>
+                el atributo 'controls' el audio no funcionara. 
+            </p> <br>
 
             <div><p> <b>Usando el &lt;a href=mailto</b>:[inserte correo electronico]&gt;' haremos que se abra<br>
                 nuestro navegador (en mi caso Chrome) y de estar iniciada la sesión abrira el correo<br>
@@ -130,11 +137,12 @@
 
                 Ejemplo:<br>
             &lt;a href="mailto:JuanCarlosOrtizPerez@gmail.com"&gt; Email&lt;/a&gt; </p></div>
-            <a href="mailto:JuanCarlosOrtizPerez@gmail.com">Email</a> </p></div>
+            <a href="mailto:JuanCarlosOrtizPerez@gmail.com">Email</a> </p></div> <br>
             
             <div> <p>Al usar 'download' al lado de un href o img entre otros, se da la opcion de descargar<br>
-                lo vinculado. EJ:(este aún no me sale) <br>
-            <a href=https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/golden-retriever-royalty-free-image-506756303-1560962726.jpg?crop=0.672xw:1.00xh;0.166xw,0&amp;resize=640:*" target=_blank> Dog image</a>
+                lo vinculado. EJ:(este aún no me sale): <br> 
+             &lt;a src="https://upload.wikimedia.org/wikipedia/commons/Pac-Man_Cutscene.svg" download&gt; &lt;/a&gt; <br>
+            <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Pac-Man_Cutscene.svg/283px-Pac-Man_Cutscene.svg.png" download="true" target=_blank> Pac Man </a>
             <br>
 <p>Para hacer una <b>lista enumerada</b> se usa <b>&lt;ol&gt;</b>; y para hacer una <b>lista sin orden</b> es <b>&lt;ul&gt;</b><br>
     para hacer cada item o número de la lista se usa &lt;li&gt;.<br>
