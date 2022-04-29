@@ -1,0 +1,88 @@
+/* Estructura de css se conforma por un selector, {}, propiedad: y valor; 
+Van de la siguiente manera:  selector {
+                                    propiedad: valor;
+}
+
+El selector es aquello que elegimos para editar su estilo, puede ser un h1-h6, un <title>, un <header>,
+<p>, <article>, <a img=...> y demás.
+
+La propiedad sera aquél factor que modificaremos del selector, puede ser su altura (height), ancho (width),
+sus bordes (border), su fuente (font), color (color), posición (position) y muchas cosas más.
+En el caso del color, el valor del mismo deberá ser en hexadecimal para mayor compatibilidad con el navegador.
+
+El valor es la cantidad en que el factor mencionado modificará al selector designado. Este puede medirse en 
+numeros enteros ej: img width= 500px (le otorgamos 500 píxeles de ancho a la imagen) o 
+img width= 50%  (le indicamos que la imagen tendrá un ancho del 50% de su totalidad).
+
+Los enteros y los porcentajes se usan a conveniencia, para cuando un valor estático sirve en una plataforma 
+pero no en otras, un valor porcentual que se pueda ajustar según la proporción de la interfaz sobre la que se
+esté visualizando puede llegar a ser mas apta por su adaptabilidad. 
+
+Existen varios tipos de 'prefijo' para el selector que otorga distintas funciones:
+
+(*) Es un selector 'universal', al poner solo el asterisco estamos seleccionando todo lo que puede ser 
+modificable por css en el archivo html.
+------------------------------------------------------------------------------------------------------------------
+
+('inserte aquí tag') Si nosotros solo ponemos h1, o <p> o <section> todos los tags denominados de esa forma
+se verán modificados.
+------------------------------------------------------------------------------------------------------------------
+
+(.class='...') se hace uso del atributo 'class'. Al crear un class con un nombre, todas las etiquetas que posean
+un class con dicho nombre se verán modificadas. La estructura sería la siguiente:
+'.' 'nombre del class'{ propiedad: valor;}
+Por ejemplo:
+
+.ParrafosEncasillados2 {bordes: solid;}
+Esto de parte de Css
+y de parte de html:
+
+<p class="ParrafosEncasillados2"> lorem ipsum bla bla bla bla bla bla bla bla bla bla </p>
+<p> "...y así fué como conocí a tu padre (? ". </p>
+
+Entonces con esta configuración, solo los parrafos (<p>) que poseen class= "ParrafosEncasillados2"
+tendran bordes. 
+------------------------------------------------------------------------------------------------------------------
+
+Este próximo es parecido al '.class='. Comienza con # y le sigue un nombre. En html para usarlo se le agrega
+el atributo 'id=' dentro del tag en el que lo van a usar. Id es 'identifier' del inglés identificador, da identidad
+y por ende no es que se deba asignar a distintos elementos en simultáneo. Pero por sobretodo, este mal uso puede
+interponers en el camino si usamos JavaScript por ejemplo.
+
+Ej:
+Visto desde Css:
+
+'#...' {propiedad: valor;} ---> #tortademanzana {alto: 100px;}
+
+Visto desde Html:
+(link para descarga de imagen https://recetatorta.com/wp-content/uploads/2020/10/Torta-de-manzana-invertida.jpg)
+
+<a href="torta.jpg" id="tortademanzana">torta</a>
+------------------------------------------------------------------------------------------------------------------
+
+Por atributo, nosotros creamos un atributo y le damos un valor dentro de la misma línea de un tag para
+que funcione. Dicho valor es parte del nombre del atributo y no da funcionalidad dentro del código. Cuando lo
+usemos en Css encerraremos al atributo y su valor entre corchetes [] para que funcionen.
+
+Ej: Visto desde CSS:
+
+[header2=subrayado25px] {underline: ;}
+
+Visto desde HTML:
+<body>
+   <h2 header2=subrayado25px> texto aqui </h2>
+
+
+
+
+
+
+*/ 
+[header2=subrayado] {text-decoration:underline white;}
+
+.torta {size: 250px;}
+.torta {margin-top: 100%;}
+?
+#torta {margin-top: 100%;}
+#torta {size: 250px;}
+?
