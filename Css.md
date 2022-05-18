@@ -154,6 +154,7 @@ span { font-size: 1pc }
 Unidades relativas:
 
 em, (no confundir con la etiqueta <em> de HTML) relativa respecto del tamaño de letra del elemento.
+Por defecto este valor equivale a 16px, pero se puede cambiar. 1em = 16px.
 
     En em se toma como referencia el font-size del element actual.
 
