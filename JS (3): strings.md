@@ -4,13 +4,13 @@
 <!-- Existe una pagina denominada Mozilla Development Network (MDN) la cual da información de la sintaxis y comandos de JS, de allí saqué la infomación que escribiré a continuación. -->
 
 
-- String Properties; describe al objeto string según parámetros:
+- String Properties; describe al objeto string según atributos y características:
 
 1. String.prototype (no la describo pero la dejo como 'vista').
 
 2. String.length: representa el largo de una cadena en unidades de código UTF-16. 
 
-- String Methods; permite la capacidad de acción al objeto string mediante comandos:
+- String Methods; permite la capacidad de interacción al objeto string mediante comandos:
 (pongo para dar ejemplos, no para desarrollar)
 
 1. String.fromCharCode()
