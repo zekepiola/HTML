@@ -68,7 +68,7 @@ Y si la desplegamos dirá:
 **>__proto__: String**
 **[[Primitive Value]]**
 
-Esta acción hará que se vea así en la consola proporcionándonos detalles del string como la ubicación de cada caracter y el largo (length) de la string como mencionabamos en principio cuando hablabamos de la propiedad de los strings.
+Esta acción hará que se vea así en la consola proporcionándonos detalles del string como la ubicación de cada caracter y el largo (length) de la string como mencionabamos en principio cuando hablabamos de las **propiedades de los strings**.
 
 Y por que dice length: 10? Aclaro por las dudas el 0 siempre se cuenta en programación, al ser un caracter aparte se suma y se hacen 10. Y por supuesto los espacios también son caracteres.
 
@@ -79,3 +79,13 @@ console.log(edad.length, valor.length, saludo.length)
 Y lo que mostrará la consola:
 
 2, 3, 10
+
+----------------------------------------------------------
+
+También hablamos de los **methods de las strings**, por ejemplo una acción realizable en JS es que me devuelva el valor del string completamente en mayúsculas  o minúsculas. Para eso lo manifestaremos en la consola y para ello escribiremos:
+
+- console.log(valor.toUpperCase (mayus), saludo.toLowerCase(lower) )
+
+Y se verá:
+
+5PE, hola mundo. 
