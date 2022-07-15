@@ -71,3 +71,11 @@ Y si la desplegamos dirá:
 Esta acción hará que se vea así en la consola proporcionándonos detalles del string como la ubicación de cada caracter y el largo (length) de la string como mencionabamos en principio cuando hablabamos de la propiedad de los strings.
 
 Y por que dice length: 10? Aclaro por las dudas el 0 siempre se cuenta en programación, al ser un caracter aparte se suma y se hacen 10. Y por supuesto los espacios también son caracteres.
+
+Tambien le puedo ordenar a la consola que solo me de la cantidad de caracteres de un string (es decir el length) de la siguiene forma:
+
+console.log(edad.length, valor.length, saludo.length)
+
+Y lo que mostrará la consola:
+
+2, 3, 10
