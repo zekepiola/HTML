@@ -85,16 +85,16 @@ console.log(edad.length, valor.length, saludo.length)
 
 También hablamos de los **methods de las strings**, por ejemplo una acción realizable en JS es que me devuelva el valor del string completamente en mayúsculas  o minúsculas. Para eso lo manifestaremos en la consola y para ello escribiremos:
 
-- console.log(valor.toUpperCase (mayus), saludo.toLowerCase(lower) )
+- console.log(valor.**toUpperCase** (mayus), saludo.**toLowerCase** (lower))
 
 || || ||
 \/ \/ \/
 
 5PE, hola mundo. 
 
-Otro method es: 
+Otro: 
 
-**valordelstring.includes()**; Esto es útil para buscar si un string posee ciertos caracteres o cadena de caracteres en su valor, Ejemplo:
+- **valordelstring.includes()**; Esto es útil para buscar si un string posee ciertos caracteres o cadena de caracteres en su valor, Ejemplo:
 
 console.log(saludo.includes(Hola))
 
@@ -104,3 +104,12 @@ console.log(saludo.includes(Hola))
 *true*
 Porque dentro del string "saludo" se encuentra la palabra Hola.
 De insertar una palabra que no se encuentra en el string el resultado será *false*
+
+- **valordelstring.trim()**; Esto sirve para cortar los caracteres designados en el paréntesis (parecido a borrar, la diferencia es que desaparece estéticamente pero no del código fuente los caracteres delimitados). Ejemplo:
+
+console.log(saludo.trim(" "))
+|| || || 
+\/ \/ \/
+HolaMundo
+
+-**valordelstring.split()**;
