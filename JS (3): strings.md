@@ -76,7 +76,8 @@ Tambien le puedo ordenar a la consola que solo me de la cantidad de caracteres d
 
 console.log(edad.length, valor.length, saludo.length)
 
-Y lo que mostrará la consola:
+|| || ||
+\/ \/ \/
 
 2, 3, 10
 
@@ -86,6 +87,20 @@ También hablamos de los **methods de las strings**, por ejemplo una acción rea
 
 - console.log(valor.toUpperCase (mayus), saludo.toLowerCase(lower) )
 
-Y se verá:
+|| || ||
+\/ \/ \/
 
 5PE, hola mundo. 
+
+Otro method es: 
+
+**valordelstring.includes()**; Esto es útil para buscar si un string posee ciertos caracteres o cadena de caracteres en su valor, Ejemplo:
+
+console.log(saludo.includes(Hola))
+
+|| || ||  Consola dirá
+\/ \/ \/
+
+*true*
+Porque dentro del string "saludo" se encuentra la palabra Hola.
+De insertar una palabra que no se encuentra en el string el resultado será *false*
