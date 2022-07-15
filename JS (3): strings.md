@@ -112,4 +112,17 @@ console.log(saludo.trim(" "))
 \/ \/ \/
 HolaMundo
 
--**valordelstring.split()**;
+-**valordelstring.split()**; Sirve para separar una cadena de texto en strings mas chicos según el caracter que se le asigne de valor para separar a la cadena de texto base. Se entiende mejor con ejemplo:
+<!-- Para este method voy a usar un nuevo string.
+let frase = tres tristes tigres tragaban trigo en un trigal-->
+
+console.log(frase.split(t))
+
+|| || || Entonces la consola dividirá el string  
+\/ \/ \/ según todas las letras 't' que la compongan
+
+(6) tres, tristes, tigres, tragaban, trigo, trigal
+
+Y al comienzo nos da el número de caracteres detectados en la string entre paréntesis.
+
+
